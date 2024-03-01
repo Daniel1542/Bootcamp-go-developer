@@ -26,8 +26,7 @@ func main() {
 		}else{	
 			
 			fmt.Println(i)
-			fmt.Println()
-			continue		
+			fmt.Println()		
 			
 		}		
 
