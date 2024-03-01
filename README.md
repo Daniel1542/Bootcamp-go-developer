@@ -2,5 +2,5 @@
 <p align="center">
 </p>
 
-# Bootcamp-go-developer
+# Bootcamp Go da DIO
 Meus projetos do bootcamp da DIO
