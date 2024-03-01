@@ -10,21 +10,21 @@ func main() {
 
 		if  i%3 == 0 && i%5 == 0{	
 
-			fmt.Printf("Pinpan %v", i)
+			fmt.Println("Pinpan")
 			fmt.Println()
 			
 		}else if i%3 == 0 && i%5 != 0{
 		
-			fmt.Printf("Pin %v", i)	
+			fmt.Println("Pin")	
 			fmt.Println()
 			
 		}else if i%5 == 0 && i%3 != 0{
 
-			fmt.Printf("Pan %v", i)	
+			fmt.Println("Pan")	
 			fmt.Println()
 
 		}else{	
-
+			
 			fmt.Println(i)
 			fmt.Println()
 			continue		
