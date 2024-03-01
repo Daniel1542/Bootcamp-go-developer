@@ -1,4 +1,4 @@
 
-# Desafio 1
+# Desafio 2
 
-Programa em Go para a Conversão de Escalas Termométricas
+Resolvendo Problemas Numéricos com Go
