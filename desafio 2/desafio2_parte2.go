@@ -3,32 +3,29 @@ package main
 import "fmt"
 
 func main() {
-	
-	i := 1
-	
-	for ; i <= 100; i++	 {
 
-		if  i%3 == 0 && i%5 == 0{	
+	i := 1
+
+	for ; i <= 100; i++ {
+
+		switch {
+
+		case i%3 == 0 && i%5 == 0:
 
 			fmt.Println("Pinpan")
-			fmt.Println()
-			
-		}else if i%3 == 0 && i%5 != 0{
-		
-			fmt.Println("Pin")	
-			fmt.Println()
-			
-		}else if i%5 == 0 && i%3 != 0{
 
-			fmt.Println("Pan")	
-			fmt.Println()
+		case i%3 == 0 && i%5 != 0:
 
-		}else{	
-			
+			fmt.Println("Pin")
+
+		case i%5 == 0 && i%3 != 0:
+
+			fmt.Println("Pan")
+
+		default:
+
 			fmt.Println(i)
-			fmt.Println()		
-			
-		}		
+		}
 
 	}
 }
